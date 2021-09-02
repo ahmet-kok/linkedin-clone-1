@@ -1,8 +1,15 @@
 .navbarbg {
-  height: 55px;
+  height: 52px;
   background-color: white;
 }
 
+.navbar-nav > li > a > i {
+  text-align: center;
+
+}
+.navbar-nav > li {
+  margin-right: 10px;
+}
 input.searche {
   height: 36px;
   max-width: 500px;
@@ -25,15 +32,24 @@ input.searche::placeholder {
   background-color: #f3f2ef;
 }
 
-.menutext {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: gray;
-  margin-top: 5px;
-  font-weight: lighter;
+.main {
+  margin-top: 90px;
 }
 
-.menutext:hover {
+.menutext {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 9px;
+  font-weight: lighter;
+}
+.menutext2 {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: lighter;
+}
+.menutext:hover, .menutext2:hover {
   color: black;
 }
 
@@ -68,8 +84,10 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/assets/edit-regular.svg);
   background-repeat: no-repeat;
+  background-position-x: 3px ;
+  background-position-y: 0px;
   background-size: auto;
 }
 
@@ -129,5 +147,4 @@ button.ref:hover {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  margin-left: 8px;
 }
